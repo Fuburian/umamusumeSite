@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--color-text-base);
+    background-color: #fff;
+    touch-action: manipulation;
+}
+
+footer {
+    background-color: #292929;
+    color: white;
+}
+
+:root {
+    --parts-color-text-base: #4d4d4d;
+    --parts-color-pink: #ff6ecb;
+    --parts-color-rgb-blue: #2a5dfa
+}
+
+header {
+    background-color: #292929;
+    color: white;
+}
+
+.nav-link {
+    font-family: roboto, sans-serif;
+    font-size: 1.3888888889vw;
+}
+
+.navbar-fixed-bottom {
+    width: fit-content;
+    left: 20%;
+}   
