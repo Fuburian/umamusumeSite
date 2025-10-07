@@ -8,7 +8,11 @@ body {
     line-height: 1;
     color: var(--color-text-base);
     background-color: #fff;
-    touch-action: manipulation;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-left:auto
 }
 
 footer {
@@ -16,23 +20,6 @@ footer {
     color: white;
 }
 
-:root {
-    --parts-color-text-base: #4d4d4d;
-    --parts-color-pink: #ff6ecb;
-    --parts-color-rgb-blue: #2a5dfa
+.header {
+    position:fixed;
 }
-
-header {
-    background-color: #292929;
-    color: white;
-}
-
-.nav-link {
-    font-family: roboto, sans-serif;
-    font-size: 1.3888888889vw;
-}
-
-.navbar-fixed-bottom {
-    width: fit-content;
-    left: 20%;
-}   
